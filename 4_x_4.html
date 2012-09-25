@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>GitHub Backups</title>
+    <meta charset='utf-8' />
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+    <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon' />
+    <link type="text/css" href="/css/styles.css" media="screen" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>1.72 TB <span>free</span></h1>
+        <div id="space-overview">
+          <ul class="details">
+            <li><strong>20.27 TB</strong> used</li>
+            <li><strong>0.52 TB</strong> +/day</li>
+            <li><strong>32 days</strong> to capacity</li>
+          </ul>
+          <div class="bar" data-fill-percentage="92"></div>
+        </div>
+      </header>
+
+      <ul id="servers" class="clearfix">
+        <li>
+          <h2>Frodo</h2>
+          <p class="stats clearfix">
+            <span><strong>10.6 TB</strong> used</span>
+            <span><strong>0.6 TB</strong> remaining</span>
+          </p>
+          <ul>
+            <li data-partition-name="a" data-fill-percentage="73"></li>
+            <li data-partition-name="b" data-fill-percentage="53"></li>
+            <li data-partition-name="c" data-fill-percentage="33"></li>
+            <li data-partition-name="d" data-fill-percentage="73"></li>
+          </ul>
+        </li>
+        <li>
+          <h2>Gandalf</h2>
+          <p class="stats clearfix">
+            <span><strong>10.6 TB</strong> used</span>
+            <span><strong>0.6 TB</strong> remaining</span>
+          </p>
+          <ul>
+            <li data-partition-name="e" data-fill-percentage="92"></li>
+            <li data-partition-name="f" data-fill-percentage="13"></li>
+            <li data-partition-name="g" data-fill-percentage="13"></li>
+            <li data-partition-name="h" data-fill-percentage="98"></li>
+          </ul>
+        </li>
+        <li>
+          <h2>Smeagol</h2>
+          <p class="stats clearfix">
+            <span><strong>10.6 TB</strong> used</span>
+            <span><strong>0.6 TB</strong> remaining</span>
+          </p>
+          <ul>
+            <li data-partition-name="1" data-fill-percentage="53"></li>
+            <li data-partition-name="2" data-fill-percentage="33"></li>
+            <li data-partition-name="3" data-fill-percentage="83"></li>
+            <li data-partition-name="4" data-fill-percentage="93"></li>
+          </ul>
+        </li>
+        <li>
+          <h2>Sauron</h2>
+          <p class="stats clearfix">
+            <span><strong>10.6 TB</strong> used</span>
+            <span><strong>0.6 TB</strong> remaining</span>
+          </p>
+          <ul>
+            <li data-partition-name="5" data-fill-percentage="70"></li>
+            <li data-partition-name="6" data-fill-percentage="88"></li>
+            <li data-partition-name="7" data-fill-percentage="83"></li>
+            <li data-partition-name="8" data-fill-percentage="93"></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+  </body>
+
+  <script src="/js/jquery-1.8.2.min.js"></script>
+  <script src="/js/d3.v2.min.js"></script>
+  <script src="/js/app.js"></script>
+</html>
